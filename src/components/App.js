@@ -143,10 +143,10 @@ function App() {
               <div className='md-c-5 align-center'>Jose<br />Lopez-Reyes</div>
             </div>
             <div className='heading'>
-              Senior Software Engineer
+              Full Stack Software Engineer
             </div>
             <p className='padding-25-t'>
-              Some radom text will go here. not sure what it will say but there will be text here at some point
+            I modernize legacy systems into future-proof solutions—like slashing CPU usage by 86% for Firefly’s RV control tech while preserving 7 years of user familiarity.<br /><br />With JavaScript, React, and AWS expertise, I bridge hardware and software, crafting full-stack tools that scale, from IoT integrations (6+ components) to mentoring teams under tight deadlines.<br /><br />My work isn’t just code; it’s collaboration, whether leading 20+ client projects or retrofitting old RVs for today’s market. Let’s turn complex challenges into seamless experiences.
             </p>
           </aside>
           <img src={myPhoto} className='justify-center align-center fluid-image' />
@@ -165,7 +165,7 @@ function App() {
             </div>
             <div className='xxsm-c-1 xlg-c-2 xlg-g-4 xsm-g-6 heading padding-15'>
               <FontAwesomeIcon icon={faLinkedin} size='2x' className='xxsm-c-1 justify-end align-center padding-25-r' />
-              <div className='xlg-c-3 xsm-c-5 align-center'><a href='www.linkedin.com/in/joselpz-rys'>joselpz-rys</a></div>
+              <div className='xlg-c-3 xsm-c-5 align-center'><a href="https://www.linkedin.com/in/joselpz-rys" target="_blank" title="Check Out My LinkIn">joselpz-rys</a></div>
             </div>
           </aside>
         </section>
@@ -180,7 +180,7 @@ function App() {
           </div>
           <div className='lg-g-2 heading'>
             <div className='md-c-1 justify-start'>Indiana University - Kokomo</div>
-            <div className='md-c-1 justify-end'>2018 - 2021</div>
+            <div className='md-c-1 justify-end'>August 2018 - May 2021</div>
           </div>
           <ul>
             <li>Bachelor of Science in Information Science.</li>
@@ -196,61 +196,73 @@ function App() {
             <FontAwesomeIcon icon={faListCheck} className='md-c-1 align-center justify-center align-center' />
             <div className='md-c-11 align-center'>Skills</div>
           </div>
-          <div className='heading'>Web/App Development</div>
+          <div className='heading'>Web Development</div>
           <div className='xsm-g-2 sm-g-4 md-g-6 lg-g-7'>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faSquareJs} size='3x'/>
-              <div className='bg-primary iconHeading'>Javascript</div>
+              <div className='iconHeading'>Javascript</div>
             </div>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faHtml5} size='3x' />
-              <div className='bg-primary iconHeading'>HTML</div>
+              <div className='iconHeading'>HTML</div>
             </div>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faCss3Alt} size='3x' />
-              <div className='bg-primary iconHeading'>CSS</div>
+              <div className='iconHeading'>CSS</div>
             </div>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faSass} size='3x' />
-              <div className='bg-primary iconHeading'>SASS</div>
+              <div className='iconHeading'>SASS</div>
             </div>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faBootstrap} size='3x' />
-              <div className='bg-primary iconHeading'>Bootstrap</div>
+              <div className='iconHeading'>Bootstrap</div>
             </div>
           </div>
-          <div className='heading padding-15-t'>Javascript Libraries</div>
+          <div className='heading padding-15-t'>Javascript Libraries/Frameworks</div>
           <div className='xsm-g-2 sm-g-4 md-g-6 lg-g-7'>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faReact} size='3x' />
-              <div className='bg-primary iconHeading'>React</div>
+              <div className='iconHeading'>React</div>
             </div>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faAngular} size='3x' />
-              <div className='bg-primary iconHeading'>Angular</div>
+              <div className='iconHeading'>Angular</div>
             </div>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faNode} size='3x' /> 
-              <div className='bg-primary iconHeading'>Node.js</div>
+              <div className='iconHeading'>Node.js</div>
+            </div>
+            <div className='xsm-c-1 icon-wrapper'>
+              <FontAwesomeIcon icon={faSquareJs} size='3x' /> 
+              <div className='iconHeading'>JQuery</div>
+            </div>
+            <div className='xsm-c-1 icon-wrapper'>
+              <FontAwesomeIcon icon={faSquareJs} size='3x' /> 
+              <div className='iconHeading'>Ionic Capacitor</div>
+            </div>
+            <div className='xsm-c-1 icon-wrapper'>
+              <FontAwesomeIcon icon={faSquareJs} size='3x' /> 
+              <div className='iconHeading'>Next.js</div>
             </div>
           </div>
           <div className='heading padding-15-t'>Backend Development</div>
           <div className='xsm-g-2 sm-g-4 md-g-6 lg-g-7'>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faPhp} size='3x' />
-              <div className='bg-primary iconHeading'>PHP</div>
+              <div className='iconHeading'>PHP</div>
             </div>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faDatabase} size='3x' />
-              <div className='bg-primary iconHeading'>MySQL</div>
+              <div className='iconHeading'>MySQL</div>
             </div>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faJava} size='3x' />
-              <div className='bg-primary iconHeading'>Java</div>
+              <div className='iconHeading'>Java</div>
             </div>
             <div className='xsm-c-1 icon-wrapper'>
               <FontAwesomeIcon icon={faAws} size='3x'/>
-              <div className='bg-primary iconHeading'>AWS</div>
+              <div className='iconHeading'>AWS</div>
             </div>
           </div>
         </section>
@@ -296,19 +308,20 @@ function App() {
             <div id="accordion_content1" className='question-container subHeading lg-g-7' onClick={() => { toggleAccordion('content1'); }}>
               <div className='md-c-3 align-center justify-start'>Senior Software Engineer</div>
               <FontAwesomeIcon icon={faAngleDoubleDown} className={`hide-m arrow justify-center align-center md-c-1 ${activeAccordions.content1 ? 'active' : ''}`}/>
-              <div className='md-c-3 align-center justify-end'>2022 - present</div>
+              <div className='md-c-3 align-center justify-end'>November 2022 - present</div>
             </div>
             <div ref={accordions.content1} className='answer-container padding-25-x' style={{'paddingBottom': activeAccordions.content1 ? '3vh' : '0px', height: activeAccordions.content1 ? accordions.content1.current.scrollHeight : 0}}>
               <hr />
               <ul className='answer-content'>
+                <li>Traveled to customer manufacturers’ locations to debug and resolve programming issues.</li>
+                <li>Was 1 of 2 engineers selected to represent Firefly’s App team at a live Q&A panel and answer customers' questions.</li>
                 <li>Integrated 6 new electronic hardware components to work seamlessly with Firefly’s Smart RV app and Linux-based RV control unit using the Ionic Capacitor Javascript framework.</li>
                 <li>Upgraded old software on old RVs to be compatible with newer software and electronics, allowing for a higher resale price.</li>
-                <li>Researched and Updated the smart RV software to be used in new technologies like a digital remote that controls all the audio and visual devices in a coach to improve user interaction and replace older technology.</li>
-                <li>Developed and updated Capacitor and Cordova plugins using Android native code to be used with the Ionic environment to run certain features for certain devices.</li>
-                <li>Maintain a variety of devices ensuring that certain code and scripts run on certain devices and not others. At the same time maintaining multiple graphics packages ensures that certain devices display certain graphics and controls while others do not.</li>
-                <li>Maintain and develop features for 5 different apps for various clients with different demands per client </li>
+                <li>Researched and updated the smart RV software to be used in new technologies (e.g., digital remote) to improve user interaction.</li>
+                <li>Incorporated Capacitor and Cordova plugins using Android native code (Java).</li>
+                <li>Developed features for 5 different apps, managing different demands per client.</li>
                 <li>Programmed new features for the Firefly’s Linux-based RV control unit and smart RV apps.</li>
-                <li>Improved user experience by researching and implementing the latest UX design standards.</li>
+                <li>Improved user experience by implementing the latest UX design standards.</li>
               </ul>
             </div>
           </div>
@@ -317,17 +330,15 @@ function App() {
             <div id="accordion_content2" className='question-container subHeading lg-g-7' onClick={() => { toggleAccordion('content2'); }}>
               <div className='md-c-3 align-center justify-start'>Team Lead</div>
               <FontAwesomeIcon icon={faAngleDoubleDown} className={`hide-m arrow justify-center align-center md-c-1 ${activeAccordions.content2 ? 'active' : ''}`}/>
-              <div className='md-c-3 align-center justify-end'>2023 - 2024</div>
+              <div className='md-c-3 align-center justify-end'>July 023 - March 2024</div>
             </div>
             <div ref={accordions.content2} className='answer-container padding-25-x' style={{'paddingBottom': activeAccordions.content2 ? '3vh' : '0px', height: activeAccordions.content2 ? accordions.content2.current.scrollHeight : 0}}>
               <hr />
               <ul className='answer-content'>
-                <li>Supervised a team of 4 software engineers to maintain and support 20 different clients.</li>
+                <li>Supervised a team of 4 software engineers to support app development for 20 different clients.</li>
                 <li>Collaborated with the design and integration teams to ensure clients’ expectations were fulfilled.</li>
                 <li>Collaborated with tech support and customer service teams to ensure maintenance of older systems was done promptly, without disturbing the current production schedule.</li>
-                <li>Consulted with sales and clients to inform and get an understanding of what they want vs what we can do for them to meet their wants as well as possible deadlines for each project.</li>
-                <li>Researched and designed various solutions for bigger projects before scheduling and assigning the project to an engineer, ensuring the client’s approval before beginning development.</li>
-                <li>Ensured timely delivery of projects by guiding and helping team members as needed.</li>
+                <li>Researched and designed various solutions for bigger projects before scheduling and assigning the project to an engineer, obtaining the client’s approval before beginning development.</li>
                 <li>Trained new team members while maintaining the current team schedule and ensuring quality work.</li>
               </ul>
             </div>
@@ -337,12 +348,12 @@ function App() {
             <div id="accordion_content3" className='question-container subHeading lg-g-7' onClick={() => { toggleAccordion('content3'); }}>
               <div className='md-c-3 align-center justify-start'>Associate Software Engineer</div>
               <FontAwesomeIcon icon={faAngleDoubleDown} className={`hide-m arrow justify-center align-center md-c-1 ${activeAccordions.content3 ? 'active' : ''}`}/>
-              <div className='md-c-3 align-center justify-end'>2021 - 2022</div>
+              <div className='md-c-3 align-center justify-end'>August 2021 - May 2022</div>
             </div>
             <div ref={accordions.content3} className='answer-container padding-25-x' style={{'paddingBottom': activeAccordions.content3 ? '3vh' : '0px', height: activeAccordions.content3 ? accordions.content3.current.scrollHeight : 0}}>
               <hr />
               <ul className='answer-content'>
-                <li>Maintained all external hardware integrations making sure they were up to date with industry standards.</li>
+                <li>Maintained all external hardware integrations, ensuring they were up to date with industry standards.</li>
                 <li>Ensured IOS/Android Applications function and appear similar to the Linux-based RV control unit while feeling native to each system within Ionic’s single code-base environment.</li>
               </ul>
             </div>
@@ -354,14 +365,13 @@ function App() {
             <div id="accordion_content4" className='question-container subHeading lg-g-7' onClick={() => { toggleAccordion('content4'); }}>
               <div className='md-c-3 align-center justify-start'>Full Stack Web Developer</div>
               <FontAwesomeIcon icon={faAngleDoubleDown} className={`hide-m arrow justify-center align-center md-c-1 ${activeAccordions.content4 ? 'active' : ''}`}/>
-              <div className='md-c-3 align-center justify-end'>2020 - 2021</div>
+              <div className='md-c-3 align-center justify-end'>August 2020 - May 2021</div>
             </div>
             <div ref={accordions.content4} className='answer-container padding-25-x' style={{'paddingBottom': activeAccordions.content4 ? '3vh' : '0px', height: activeAccordions.content4 ? accordions.content4.current.scrollHeight : 0}}>
               <hr />
               <ul className='answer-content'>
                 <li>Led a team of 5 entry-level PHP, SQL, and Ajax developers to overhaul the Suite-Living website.</li>
-                <li>Ensured timely delivery of functional back-end applications by guiding and helping team members.</li>
-                <li>Program a maintenance ticket system using PHP and MySQL that allowed residents and staff to request maintenance throughout the facilities.</li>
+                <li>Programmed a maintenance ticket system using PHP and MySQL.</li>
               </ul>
             </div>
           </div>
@@ -370,19 +380,19 @@ function App() {
             <div id="accordion_content5" className='question-container subHeading lg-g-7' onClick={() => { toggleAccordion('content5'); }}>
               <div className='md-c-3 align-center justify-start'>Web Consultant</div>
               <FontAwesomeIcon icon={faAngleDoubleDown} className={`hide-m arrow justify-center align-center md-c-1 ${activeAccordions.content5 ? 'active' : ''}`}/>
-              <div className='md-c-3 align-center justify-end'>2020 - 2021</div>
+              <div className='md-c-3 align-center justify-end'>August 2020 - May 2021</div>
             </div>
             <div ref={accordions.content5} className='answer-container padding-25-x' style={{'paddingBottom': activeAccordions.content5 ? '3vh' : '0px', height: activeAccordions.content5 ? accordions.content5.current.scrollHeight : 0}}>
               <hr />
               <ul className='answer-content'>
-                <li>Communicated with the client and team members to design a newly overhauled website that meets the client’s expectations while providing a modern user-friendly design.</li>
+                <li>Communicated with the client and team members to design a new website that meets the client’s expectations while providing a modern user-friendly design.</li>
                 <li>Designed and documented a relational database to contain essential user input.</li>
-                <li>Designed and documented a secure maintenance ticket system with user credentials.</li>
               </ul>
             </div>
           </div>
         </section>
       </article>
+      <footer className='footer-menu'>© 2025 Jose Lopez-Reyes. All rights reserved.</footer>
     </main>
   );
 }

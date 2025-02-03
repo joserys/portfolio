@@ -10,13 +10,14 @@
 //   \     /   \ (_ o _) /|  |  \    / |   | \ (_ o _) /|  (_,_)  /  |        \\       /  \       /  
 //    `---`     '.(_,_).' ''-'   `'-'  '---'  '.(_,_).' /_______.'   `--------` `'-..-'    `-...-'   
 
-$clr-1: #d9cfc1;
-$clr-2: #3f6a4e;
-$clr-3: #6bc2af;
+$clr-1: #2D3E50;
+$clr-2: #3498DB;
+$clr-3: #2ECC71;
 // $clr-1: #E29900;
 // $clr-2: #BB4430;
 // $clr-3: #FFB416;
-$neutral-1: #211f22;
+$neutral-1: #FFFFFF;
+$neutral-2: #F5F6FA;
 
 //     _______      ,-----.      .---.       ,-----.    .-------.   .-./`) ,---.   .--.  .-_'''-.    
 //    /   __  \   .'  .-,  '.    | ,_|     .'  .-,  '.  |  _ _   \  \ .-.')|    \  |  | '_( )_   \   
@@ -36,8 +37,16 @@ $neutral-1: #211f22;
     background-color: $clr-2;
 }
 
-.bg-tertiary {
+.bg-accent {
     background-color: $clr-3;
+}
+
+.bg-light {
+    background-color: $neutral-1;
+}
+
+.bg-dark {
+    background-color: $neutral-2;
 }
 
 // .-------.    ____     ______      ______     .-./`) ,---.   .--.  .-_'''-.    
@@ -1126,16 +1135,14 @@ $neutral-1: #211f22;
     width: 100vw;
     overflow: hidden;
     scroll-behavior: smooth;
-    background-color: $clr-1;
-    font-size: 1.5em;
-    color: $neutral-1;
+    background-color: $neutral-2;
+    color: $clr-1;
 }
 
 .nav-menu {
     padding: 15px;
-    background-color: $clr-3;
-    border-bottom: solid 5px $clr-2;
-    box-shadow: 1px 5px 5px $neutral-1;
+    background-color: $clr-1;
+    box-shadow: 1px 1px 5px black;
 }
 
 .nav-button {
@@ -1144,7 +1151,7 @@ $neutral-1: #211f22;
     text-align: center;
     position: relative;
     z-index: 2;
-    color: $neutral-1;
+    color: $neutral-2;
     cursor: pointer;
 }
 
@@ -1156,9 +1163,8 @@ $neutral-1: #211f22;
     left: 0px;
     right: 0px;
     content: '';
-    border-top: solid 5px $clr-2;
-    border-bottom: solid 5px $clr-2;
-    background-color: $clr-1;
+    border-top: solid 5px $clr-3;
+    border-bottom: solid 5px $clr-3;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
@@ -1172,15 +1178,15 @@ $neutral-1: #211f22;
 }
 
 .secondary-container {
-    max-height: calc(100vh - 65px - 1rem);
+    max-height: calc(100vh - 67.5px - 49px);
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 0px 15px;
+    padding: 0px 10%;
 }
 
 .title {
-    font-size: 2em;
+    font-size: 2.5em;
     color: $clr-2;
     font-weight: bold;
 }
@@ -1189,6 +1195,8 @@ $neutral-1: #211f22;
     font-weight: bold;
     color: $clr-2;
     font-style: italic;
+    margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
 .subHeading {
@@ -1207,27 +1215,27 @@ $neutral-1: #211f22;
 
 .iconHeading {
     position: absolute;
-    font-size: .65em;
+    font-size: .85em;
     font-weight: bold;
     text-align: center;
     padding: 2px 0;
     bottom: -20px;
     left: 0px;
     right: 0px;
-    border: solid 2px $clr-2;
+    border: solid 2px $clr-3;
     border-radius: 10px;
 }
 
 .fluid-image {
-    border: solid 5px $clr-2;
+    border: solid 5px $clr-3;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px $neutral-1;
+    box-shadow: 1px 1px 5px black;
     width: calc(75% - 10px);
     height: auto;
 }
 
 hr {
-    border: solid 0px $clr-2;
+    border: solid 0px $clr-3;
     border-bottom-width: 5px;
     margin: 0px;
 }
@@ -1239,10 +1247,10 @@ hr {
 }
 
 .wrapper {
-    border: solid 5px $clr-2;
+    border: solid 5px $clr-3;
     border-radius: 15px;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin: 0px 15px 15px 15px;
 }
 
 .nav-wrapper {
@@ -1284,13 +1292,21 @@ a:visited {
 }
 
 a:hover {
-    color: $neutral-1;
+    color: $clr-3;
     background-color: transparent;
     text-decoration: underline;
 }
 
 a:active {
-    color: $neutral-1;
+    color: $clr-2;
     background-color: transparent;
     text-decoration: underline;
+}
+
+.footer-menu {
+    padding: 15px;
+    background-color: $clr-1;
+    color: $neutral-2;
+    text-align: center;
+    box-shadow: -1px -1px 5px black;
 }
