@@ -1141,13 +1141,14 @@ $neutral-2: #F5F6FA;
 }
 
 .nav-menu {
-    padding: 15px;
+    height: 68.5px;
     background-color: $clr-1;
     box-shadow: 1px 1px 5px black;
 }
 
 .article-container {
-    height: calc(100% - 68.5px - 48.5px);
+    height: auto;
+    max-height: calc(100% - 68.5px - 48.5px);
     overflow-y: auto;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -1263,7 +1264,6 @@ hr {
 }
 
 .nav-wrapper {
-    margin: 10px;
     overflow: hidden;
 }
 
@@ -1314,7 +1314,7 @@ a:active {
 }
 
 .footer-menu {
-    padding: 15px;
+    height: 48.5px;
     background-color: $clr-1;
     color: $neutral-2;
     text-align: center;
