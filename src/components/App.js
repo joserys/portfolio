@@ -87,8 +87,7 @@ function App() {
   };
 
   return (
-    <main className='main-container'>
-      
+    <>
       {/* Navigation Menu */}
       <nav className='nav-menu'>
         {/* Big Menu */}
@@ -111,7 +110,7 @@ function App() {
         </div>
         {/* Small Menu */}
         <div className='show-l nav-wrapper'>
-          <FontAwesomeIcon icon={activeAccordions.content7 ? faBarsStaggered : faBars} className='padding-5 nav-button' onClick={() => { toggleAccordion('content7') }}/>
+          <FontAwesomeIcon icon={activeAccordions.content7 ? faBarsStaggered : faBars} className='nav-burger' onClick={() => { toggleAccordion('content7') }}/>
           <div ref={accordions.content7} className='answer-container padding-25-x' style={{'paddingBottom': activeAccordions.content7 ? '3vh' : '0px', height: activeAccordions.content7 ? accordions.content7.current.scrollHeight : 0}}>
             <div id="nav_introduction" className='padding-5 nav-button' onClick={() => { scrollToSection("introduction") }}>
               INTRODUCTION
@@ -133,7 +132,7 @@ function App() {
       </nav>
 
       {/* Main Article */}
-      <article className='secondary-container'>
+      <main className='article-container'>
 
         {/* Introduction */}
         <section ref={sections.introduction} className='xsm-g-1 md-g-2 xlg-g-3 margin-15'>
@@ -391,9 +390,11 @@ function App() {
             </div>
           </div>
         </section>
-      </article>
+      </main>
+
+      {/* Footer Menu */}
       <footer className='footer-menu'>© 2025 Jose Lopez-Reyes. All rights reserved.</footer>
-    </main>
+    </>
   );
 }
 
