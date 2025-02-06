@@ -976,7 +976,7 @@ $neutral-2: #F5F6FA;
 }
 
 .article-container {
-    max-height: calc(100dvh - 68.5px - 48.5px);
+    max-height: calc(100dvh - 80px - 60px);
 }
 
 // XX-Small devices (landscape phones, 320px and up)
@@ -986,7 +986,7 @@ $neutral-2: #F5F6FA;
     }
 
     .article-container {
-        max-height: calc(100dvh - 68.5px - 67px)
+        max-height: calc(100dvh - 80px - 90px)
     }
 }
 
@@ -1001,7 +1001,7 @@ $neutral-2: #F5F6FA;
     }
 
     .article-container {
-        max-height: calc(100dvh - 68.5px - 67px)
+        max-height: calc(100dvh - 80px - 90px)
     }
 }
 
@@ -1141,6 +1141,9 @@ $neutral-2: #F5F6FA;
 //   `-...-'      '---'   `-..-'        `--------`'---' '--'    '--'   `'-...-'   
 
 #root {
+    font-family: "Afacad Flux", serif;
+    font-style: normal;
+    font-size: 1.4em;
     max-height: 100dvh;
     max-width: 100dvw;
     height: 100%;
@@ -1207,7 +1210,7 @@ $neutral-2: #F5F6FA;
 }
 
 .title {
-    font-size: 2.5em;
+    font-size: 2em;
     color: $clr-2;
     font-weight: bold;
 }
@@ -1217,7 +1220,7 @@ $neutral-2: #F5F6FA;
     color: $clr-2;
     font-style: italic;
     margin-bottom: 10px;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .subHeading {
@@ -1235,8 +1238,10 @@ $neutral-2: #F5F6FA;
 }
 
 .iconHeading {
+    background-color: $clr-1;
+    color: $neutral-2;
     position: absolute;
-    font-size: .85em;
+    font-size: .75em;
     font-weight: bold;
     text-align: center;
     padding: 2px 0;

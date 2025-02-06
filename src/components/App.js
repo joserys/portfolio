@@ -15,7 +15,8 @@ import {
   faPhp,
   faJava,
   faAws,
-  faLinkedin
+  faLinkedin,
+  faGithub
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faBars,
@@ -166,6 +167,10 @@ function App() {
               <FontAwesomeIcon icon={faLinkedin} size='2x' className='xxsm-c-1 justify-end align-center padding-25-r' />
               <div className='xlg-c-3 xsm-c-5 align-center'><a href="https://www.linkedin.com/in/joselpz-rys" target="_blank" title="Check Out My LinkIn">joselpz-rys</a></div>
             </div>
+            <div className='xxsm-c-1 xlg-c-2 xlg-g-4 xsm-g-6 heading padding-15'>
+              <FontAwesomeIcon icon={faGithub} size='2x' className='xxsm-c-1 justify-end align-center padding-25-r' />
+              <div className='xlg-c-3 xsm-c-5 align-center'><a href="https://github.com/joserys" target="_blank" title="Check Out My LinkIn">joserys</a></div>
+            </div>
           </aside>
         </section>
 
@@ -307,7 +312,7 @@ function App() {
             <div id="accordion_content1" className='question-container subHeading lg-g-7' onClick={() => { toggleAccordion('content1'); }}>
               <div className='md-c-3 align-center justify-start'>Senior Software Engineer</div>
               <FontAwesomeIcon icon={faAngleDoubleDown} className={`hide-m arrow justify-center align-center md-c-1 ${activeAccordions.content1 ? 'active' : ''}`}/>
-              <div className='md-c-3 align-center justify-end'>November 2022 - present</div>
+              <div className='md-c-3 align-center justify-end'>November 2022 - Present</div>
             </div>
             <div ref={accordions.content1} className='answer-container padding-25-x' style={{'paddingBottom': activeAccordions.content1 ? '3vh' : '0px', height: activeAccordions.content1 ? accordions.content1.current.scrollHeight : 0}}>
               <hr />
@@ -329,7 +334,7 @@ function App() {
             <div id="accordion_content2" className='question-container subHeading lg-g-7' onClick={() => { toggleAccordion('content2'); }}>
               <div className='md-c-3 align-center justify-start'>Team Lead</div>
               <FontAwesomeIcon icon={faAngleDoubleDown} className={`hide-m arrow justify-center align-center md-c-1 ${activeAccordions.content2 ? 'active' : ''}`}/>
-              <div className='md-c-3 align-center justify-end'>July 023 - March 2024</div>
+              <div className='md-c-3 align-center justify-end'>July 2023 - March 2024</div>
             </div>
             <div ref={accordions.content2} className='answer-container padding-25-x' style={{'paddingBottom': activeAccordions.content2 ? '3vh' : '0px', height: activeAccordions.content2 ? accordions.content2.current.scrollHeight : 0}}>
               <hr />
