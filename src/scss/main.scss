@@ -309,7 +309,7 @@ $neutral-2: #F5F6FA;
     }
 
     // X-Small devices (landscape phones, 320px and up)
-    @media (min-width: 329px) {
+    @media (min-width: 320px) {
         .xsm-g-12 {
             display: grid;
             grid-template-columns: [col-start] repeat(12, 8.3333% [col-start]);
@@ -980,7 +980,7 @@ $neutral-2: #F5F6FA;
 }
 
 // XX-Small devices (landscape phones, 320px and up)
-@media (max-width: 328px) {
+@media (max-width: 319px) {
     .hide-xxl, .hide-xl, .hide-l, .hide-m, .hide-s, .hide-xs, .hide-xxs {
         display: none;
     }
@@ -991,13 +991,17 @@ $neutral-2: #F5F6FA;
 }
 
 // X-Small devices (landscape phones, 320px and up)
-@media (min-width: 329px) and (max-width: 575px) {
+@media (min-width: 320px) and (max-width: 575px) {
     .hide-xxl, .hide-xl, .hide-l, .hide-m, .hide-s, .hide-xs {
         display: none;
     }
     
     .show-xxs {
         display: none;
+    }
+
+    .article-container {
+        max-height: calc(100dvh - 68.5px - 67px)
     }
 }
 
