@@ -50,7 +50,8 @@ function App() {
     'content4': useRef(null),
     'content5': useRef(null),
     'content6': useRef(null),
-    'content7': useRef(null)
+    'content7': useRef(null),
+    'content8': useRef(null),
   },
 
   [activeAccordions, setActiveAccordions] = useState({
@@ -60,7 +61,8 @@ function App() {
     'content4': false,
     'content5': false,
     'content6': false,
-    'content7': false
+    'content7': false,
+    'content8': false
   }),
   
   scrollToSection = (reference) => {
@@ -297,12 +299,12 @@ function App() {
           </div>
 
           <div className='wrapper'>
-            <div id="accordion_content6" className='question-container subHeading lg-g-11' onClick={() => { toggleAccordion('content6'); }}>
+            <div id="accordion_content8" className='question-container subHeading lg-g-11' onClick={() => { toggleAccordion('content8'); }}>
               <div className='lg-c-5 align-center justify-start'>Developed AWS interface on 10-year-old software</div>
-              <FontAwesomeIcon icon={faAngleDoubleDown} className={`hide-m arrow justify-center align-center lg-c-1 ${activeAccordions.content6 ? 'active' : ''}`}/>
+              <FontAwesomeIcon icon={faAngleDoubleDown} className={`hide-m arrow justify-center align-center lg-c-1 ${activeAccordions.content8 ? 'active' : ''}`}/>
               <div className='lg-c-5 align-center justify-end'>Firefly Integrations LCC</div>
             </div>
-            <div ref={accordions.content6} className='answer-container padding-25-x' style={{'paddingBottom': activeAccordions.content6 ? '3vh' : '0px', height: activeAccordions.content6 ? accordions.content6.current.scrollHeight : 0}}>
+            <div ref={accordions.content8} className='answer-container padding-25-x' style={{'paddingBottom': activeAccordions.content8 ? '3vh' : '0px', height: activeAccordions.content8 ? accordions.content8.current.scrollHeight : 0}}>
               <hr />
               <ul className='answer-content'>
                 <li>Interfaced with AWS S3 bucket to store configurations, allowing for individual updates of RV software.</li>
