@@ -295,6 +295,22 @@ function App() {
               </ul>
             </div>
           </div>
+
+          <div className='wrapper'>
+            <div id="accordion_content6" className='question-container subHeading lg-g-11' onClick={() => { toggleAccordion('content6'); }}>
+              <div className='lg-c-5 align-center justify-start'>Developed AWS interface on 10-year-old software</div>
+              <FontAwesomeIcon icon={faAngleDoubleDown} className={`hide-m arrow justify-center align-center lg-c-1 ${activeAccordions.content6 ? 'active' : ''}`}/>
+              <div className='lg-c-5 align-center justify-end'>Firefly Integrations LCC</div>
+            </div>
+            <div ref={accordions.content6} className='answer-container padding-25-x' style={{'paddingBottom': activeAccordions.content6 ? '3vh' : '0px', height: activeAccordions.content6 ? accordions.content6.current.scrollHeight : 0}}>
+              <hr />
+              <ul className='answer-content'>
+                <li>Interfaced with AWS S3 bucket to store configurations, allowing for individual updates of RV software.</li>
+                <li>Implemented syncing management, ensuring all devices connected to the RV use the same configuration file.</li>
+                <li>Updated implementation of different components to maintain the functionality and workflow of the software.</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <hr />
